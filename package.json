@@ -118,7 +118,7 @@
     "prosemirror-history": "^0.16.0",
     "prosemirror-inputrules": "^0.16.0",
     "prosemirror-keymap": "^0.16.0",
-    "prosemirror-markdown": "^0.16.0",
+    "prosemirror-markdown": "^1.4.0",
     "prosemirror-model": "^0.16.0",
     "prosemirror-schema-basic": "^0.16.0",
     "prosemirror-schema-list": "^0.16.0",
