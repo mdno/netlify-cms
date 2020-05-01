@@ -9,7 +9,7 @@
     "test:watch": "jest --watch",
     "build": "NODE_ENV=production webpack --config webpack.prod.js",
     "build:scripts": "NODE_ENV=production webpack --config webpack.cli.js",
-    "prepublish": "npm run build",
+    "prepublish": "yarn run snyk-protect && npm run build",
     "storybook": "start-storybook -p 9001",
     "storybook-build": "build-storybook -o dist",
     "lint": "npm run lint:js & npm run lint:css",
@@ -19,7 +19,8 @@
     "lint:css:fix": "stylefmt --recursive src/",
     "lint:staged": "lint-staged",
     "deps": "npm-check -s",
-    "deps:update": "npm-check -u"
+    "deps:update": "npm-check -u",
+    "snyk-protect": "snyk protect"
   },
   "lint-staged": {
     "*.js": [
@@ -156,9 +157,11 @@
     "slate-drop-or-paste-images": "^0.2.0",
     "textarea-caret-position": "^0.1.1",
     "uuid": "^2.0.3",
-    "whatwg-fetch": "^1.0.0"
+    "whatwg-fetch": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "fsevents": "^1.0.14"
-  }
+  },
+  "snyk": true
 }
