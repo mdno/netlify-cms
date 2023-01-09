@@ -152,7 +152,7 @@
     "redux-thunk": "^1.0.3",
     "selection-position": "^1.0.0",
     "semaphore": "^1.0.5",
-    "slate": "^0.14.14",
+    "slate": "^0.33.5",
     "slate-drop-or-paste-images": "^0.2.0",
     "textarea-caret-position": "^0.1.1",
     "uuid": "^2.0.3",
