@@ -1,0 +1,143 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@kadira/storybook > babel-core > debug':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > babel-core > debug'
+    - '@kadira/storybook > express > debug':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > debug'
+    - '@kadira/storybook > express > finalhandler > debug':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > finalhandler > debug'
+    - '@kadira/storybook > express > send > debug':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > send > debug'
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug
+  'npm:extend:20180424':
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > hoek
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > boom > hoek
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - '@kadira/storybook > babel-core > lodash':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > babel-core > lodash'
+    - react-simple-dnd > react-dnd > lodash:
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > lodash
+    - react-simple-dnd > react-dnd-html5-backend > lodash:
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd-html5-backend > lodash
+    - '@kadira/storybook > @kadira/storybook-ui > redux > lodash':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > @kadira/storybook-ui > redux > lodash'
+    - '@kadira/storybook > babel-core > babel-register > lodash':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > babel-core > babel-register > lodash'
+    - react-simple-dnd > react-dnd > dnd-core > lodash:
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > dnd-core > lodash
+    - react-simple-dnd > react-dnd > dnd-core > redux > lodash:
+        patched: '2024-09-15T03:58:40.197Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > dnd-core > redux > lodash
+  'npm:mime:20170907':
+    - '@kadira/storybook > webpack-dev-middleware > mime':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:mime:20170907'
+        path: '@kadira/storybook > webpack-dev-middleware > mime'
+    - '@kadira/storybook > express > send > mime':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:mime:20170907'
+        path: '@kadira/storybook > express > send > mime'
+  'npm:ms:20170412':
+    - '@kadira/storybook > express > debug > ms':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:ms:20170412'
+        path: '@kadira/storybook > express > debug > ms'
+    - '@kadira/storybook > express > send > ms':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:ms:20170412'
+        path: '@kadira/storybook > express > send > ms'
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug > ms
+  'npm:qs:20170213':
+    - '@kadira/storybook > qs':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:qs:20170213'
+        path: '@kadira/storybook > qs'
+    - '@kadira/storybook > @kadira/storybook-ui > qs':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:qs:20170213'
+        path: '@kadira/storybook > @kadira/storybook-ui > qs'
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > qs
+  'npm:stringstream:20180511':
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+  'npm:tough-cookie:20170905':
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent':
+        patched: '2024-09-15T03:58:40.197Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tunnel-agent
