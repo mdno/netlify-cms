@@ -1,0 +1,319 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - slate > debug:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: slate > debug
+    - '@kadira/storybook > babel-core > debug':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > babel-core > debug'
+    - jest > jest-cli > jest-runtime > babel-core > debug:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: jest > jest-cli > jest-runtime > babel-core > debug
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > debug
+    - '@kadira/storybook > express > debug':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > debug'
+    - '@kadira/storybook > express > finalhandler > debug':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > finalhandler > debug'
+    - '@kadira/storybook > express > send > debug':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: '@kadira/storybook > express > send > debug'
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug
+  'npm:extend:20180424':
+    - markup-it > range-utils > extend:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:extend:20180424'
+        path: markup-it > range-utils > extend
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > extend
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > hawk > hoek
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > hawk > boom > hoek
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > hawk > sntp > hoek
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > hoek
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > boom > hoek
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - redux > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: redux > lodash
+    - react-redux > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-redux > lodash
+    - slate > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: slate > lodash
+    - react-autosuggest > redux > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-autosuggest > redux > lodash
+    - '@kadira/storybook > babel-core > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > babel-core > lodash'
+    - react-simple-dnd > react-dnd > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > lodash
+    - react-simple-dnd > react-dnd-html5-backend > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd-html5-backend > lodash
+    - react-autosuggest > react-redux > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-autosuggest > react-redux > lodash
+    - '@kadira/storybook > @kadira/storybook-ui > redux > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > @kadira/storybook-ui > redux > lodash'
+    - '@kadira/storybook > babel-core > babel-register > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@kadira/storybook > babel-core > babel-register > lodash'
+    - '@kadira/storybook > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @kadira/storybook > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - react-simple-dnd > react-dnd > dnd-core > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > dnd-core > lodash
+    - react-simple-dnd > react-dnd > dnd-core > redux > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-simple-dnd > react-dnd > dnd-core > redux > lodash
+    - jest > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-runtime > babel-core > lodash
+    - '@kadira/storybook > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @kadira/storybook > babel-preset-es2015 >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - '@kadira/storybook > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @kadira/storybook > babel-preset-es2015 >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - '@kadira/storybook > babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > lodash':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @kadira/storybook > babel-preset-react >
+          babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx >
+          lodash
+    - jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > istanbul-api > async > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > lodash
+    - jest > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-runtime > babel-core > babel-register > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > babel-types > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > babel-types > lodash
+  'npm:marked:20170907':
+    - jest > jest-cli > node-notifier > cli-usage > marked:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:marked:20170907'
+        path: jest > jest-cli > node-notifier > cli-usage > marked
+  'npm:mime:20170907':
+    - '@kadira/storybook > webpack-dev-middleware > mime':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:mime:20170907'
+        path: '@kadira/storybook > webpack-dev-middleware > mime'
+    - '@kadira/storybook > express > send > mime':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:mime:20170907'
+        path: '@kadira/storybook > express > send > mime'
+  'npm:ms:20170412':
+    - '@kadira/storybook > express > debug > ms':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:ms:20170412'
+        path: '@kadira/storybook > express > debug > ms'
+    - '@kadira/storybook > express > send > ms':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:ms:20170412'
+        path: '@kadira/storybook > express > send > ms'
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug > ms
+    - slate > debug > ms:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:ms:20170412'
+        path: slate > debug > ms
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > debug > ms:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > debug > ms
+  'npm:qs:20170213':
+    - '@kadira/storybook > qs':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:qs:20170213'
+        path: '@kadira/storybook > qs'
+    - '@kadira/storybook > @kadira/storybook-ui > qs':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:qs:20170213'
+        path: '@kadira/storybook > @kadira/storybook-ui > qs'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > qs:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > qs
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > qs
+  'npm:stringstream:20180511':
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > stringstream
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+  'npm:tough-cookie:20170905':
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > tough-cookie:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          tough-cookie
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tough-cookie:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > tough-cookie
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > tunnel-agent:
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > tunnel-agent
+    - '@kadira/storybook > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent':
+        patched: '2025-11-08T09:57:10.501Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          @kadira/storybook > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tunnel-agent
